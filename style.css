@@ -1,204 +1,226 @@
 /* General Styles */
 body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: #f4f4f9;
-    color: #333;
-  }
-  
-  .container {
-    width: 90%;
-    max-width: 1200px;
-    margin: 0 auto;
-  }
-  
-  /* Header */
-  header {
-    background-color: #2c3e50;
-    color: #fff;
-    padding: 20px 0;
-  }
-  
-  header h1 {
-    margin: 0;
-    font-size: 24px;
-  }
-  
-  nav ul {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-    display: flex;
-    gap: 20px;
-  }
-  
-  nav ul li a {
-    color: #fff;
-    text-decoration: none;
-    font-weight: bold;
-  }
-  
-  /* Hero Section */
-  .hero {
-    background-color: #3498db;
-    color: #fff;
-    padding: 100px 0;
-    text-align: center;
-  }
-  
-  .hero h2 {
-    font-size: 36px;
-    margin-bottom: 20px;
-  }
-  
-  .hero p {
-    font-size: 18px;
-    margin-bottom: 30px;
-  }
-  
-  .btn {
-    background-color: #e67e22;
-    color: #fff;
-    padding: 10px 20px;
-    text-decoration: none;
-    border-radius: 5px;
-  }
-  
-  /* Offers Section */
-  .offers {
-    padding: 50px 0;
-    text-align: center;
-  }
-  
-  .offer-cards {
-    display: flex;
-    gap: 20px;
-    justify-content: center;
-  }
-  
-  .card {
-    background-color: #fff;
-    padding: 20px;
-    border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    width: 30%;
-  }
-  
-  .card h3 {
-    margin-top: 0;
-  }
-  
-  /* Chart Section */
-  .chart {
-    padding: 50px 0;
-    background-color: #ecf0f1;
-  }
-  
-  /* Login Section */
-  .login {
-    padding: 50px 0;
-    text-align: center;
-  }
-  
-  .login input {
-    display: block;
-    width: 100%;
-    max-width: 300px;
-    margin: 10px auto;
-    padding: 10px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-  }
-  
-  .login button {
-    background-color: #2ecc71;
-    color: #fff;
-    padding: 10px 20px;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-  }
-  
-  .login p {
-    margin-top: 20px;
-  }
-  
-  .login a {
-    color: #3498db;
-    text-decoration: none;
-  }
-  
-  /* Sign-Up Section */
-  .signup {
-    padding: 50px 0;
-    text-align: center;
-  }
-  
-  .signup input {
-    display: block;
-    width: 100%;
-    max-width: 300px;
-    margin: 10px auto;
-    padding: 10px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-  }
-  
-  .signup button {
-    display: block;
-    width: 100%;
-    max-width: 300px;
-    margin: 20px auto;
-    padding: 10px;
-    background-color: #2ecc71;
-    color: #fff;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-  }
-  
-  .signup p {
-    margin-top: 20px;
-  }
-  
-  .signup a {
-    color: #3498db;
-    text-decoration: none;
-  }
-  
-  .agreement {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 0; /* Ensure no extra space between elements */
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f9;
+  color: #333;
+}
+
+.container {
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* Header */
+header {
+  background-color: #2c3e50;
+  color: #fff;
+  padding: 20px 0;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 24px;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  gap: 20px;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+/* Hero Section */
+.hero {
+  background-color: #3498db;
+  color: #fff;
+  padding: 100px 0;
+  text-align: center;
+}
+
+.hero h2 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.hero p {
+  font-size: 18px;
+  margin-bottom: 30px;
+}
+
+.btn {
+  background-color: #e62222;
+  color: #fff;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+/* Offers Section */
+.offers {
+  padding: 50px 0;
+  text-align: center;
+}
+
+.offer-cards {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+}
+
+.card {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 30%;
+}
+
+.card h3 {
+  margin-top: 0;
+}
+
+/* Chart Section */
+.chart {
+  padding: 50px 0;
+  background-color: #ecf0f1;
+}
+
+/* Login Section */
+.login {
+  padding: 50px 0;
+  text-align: center;
+}
+
+.login input {
+  display: block;
+  width: 100%;
+  max-width: 300px;
+  margin: 10px auto;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.login button {
+  background-color: #2ecc71;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.login p {
+  margin-top: 20px;
+}
+
+.login a {
+  color: #3498db;
+  text-decoration: none;
+}
+
+/* Sign-Up Section */
+.signup {
+  padding: 50px 0;
+  text-align: center;
+}
+
+.signup input {
+  display: block;
+  width: 100%;
+  max-width: 300px;
+  margin: 10px auto;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.signup button {
+  display: block;
+  width: 100%;
+  max-width: 300px;
+  margin: 20px auto;
+  padding: 10px;
+  background-color: #2ecc71;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.signup p {
+  margin-top: 20px;
+}
+
+.signup a {
+  color: #3498db;
+  text-decoration: none;
+}
+
+/* Agreement Checkbox and Text */
+.agreement {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 10px 0;
 }
 
 .agreement input {
-    margin: 0;
-    padding: 0;
-    width: auto; /* Ensure it doesn't get stretched */
-    appearance: auto; /* Optionally remove default styling */
+  margin: 0;
+  padding: 0;
 }
 
 .agreement label {
-    margin: 5px;
-    padding: 0;
-    display: inline-block;
-    line-height: 1; /* Ensures text aligns properly */
+  margin: 0;
+  padding: 0;
 }
 
-  /* Error Message */
-  .error-message {
-    color: red;
-    font-size: 14px;
-    margin: 10px 0;
-  }
-  
-  /* Footer */
-  footer {
-    background-color: #2c3e50;
-    color: #fff;
-    text-align: center;
-    padding: 20px 0;
-  }
+/* Error Message */
+.error-message {
+  color: red;
+  font-size: 14px;
+  margin: 10px 0;
+}
+
+/* Footer */
+footer {
+  background-color: #2c3e50;
+  color: #fff;
+  text-align: center;
+  padding: 20px 0;
+}
+
+footer .container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+footer p {
+  margin: 0;
+}
+
+.social-media {
+  margin-top: 10px;
+}
+
+.social-media a {
+  color: #f60202;
+  margin: 0 10px;
+  font-size: 24px;
+  transition: color 0.3s ease;
+}
+
+.social-media a:hover {
+  color: #eef2f4; /* Change color on hover */
+}
