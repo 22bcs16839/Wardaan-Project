@@ -1,4 +1,5 @@
 /* General Styles */
+/* General Styles */
 body {
   font-family: Arial, sans-serif;
   margin: 0;
@@ -11,6 +12,55 @@ body {
   width: 90%;
   max-width: 1200px;
   margin: 0 auto;
+  text-align: center;
+}
+
+/* Hero Section */
+.hero {
+  background-color: #3498db;
+  color: #fff;
+  padding: 100px 0;
+  text-align: center;
+}
+
+.hero h2 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.btn {
+  background-color: #e67e22;
+  color: #fff;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+/* Scrolling Text Container */
+.scrolling-text-container {
+  width: 100%;
+  overflow: hidden; /* Hide overflowing text */
+  white-space: nowrap; /* Prevent text from wrapping */
+  box-sizing: border-box;
+  margin: 10px 0;
+}
+
+/* Scrolling Text Animation */
+.scrolling-text {
+  display: inline-block;
+  padding-left: 100%; /* Push text outside the container */
+  animation: scrollText 15s linear infinite; /* Adjust speed as needed */
+  font-size: 1.2em;
+  color: #fff;
+}
+
+@keyframes scrollText {
+  0% {
+    transform: translateX(100%); /* Start from the right */
+  }
+  100% {
+    transform: translateX(-100%); /* Move to the left */
+  }
 }
 
 /* Header */
@@ -224,3 +274,4 @@ footer p {
 .social-media a:hover {
   color: #eef2f4; /* Change color on hover */
 }
+
