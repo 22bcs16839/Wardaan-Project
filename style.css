@@ -275,3 +275,118 @@ footer p {
   color: #eef2f4; /* Change color on hover */
 }
 
+/* Portfolio Section */
+.portfolio {
+  padding: 50px 0;
+  text-align: center;
+}
+
+.portfolio-summary {
+  display: flex;
+  justify-content: space-around;
+  margin: 20px 0;
+}
+
+.summary-item {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 30%;
+}
+
+.summary-item span {
+  display: block;
+  font-size: 1.1em;
+  margin: 5px 0;
+}
+
+.amount {
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+.profit {
+  color: #2ecc71; /* Green for profit */
+}
+
+.loss {
+  color: #e74c3c; /* Red for loss */
+}
+
+.portfolio-graph {
+  margin-top: 40px;
+}
+
+.top-right-links {
+  display: flex;
+  margin-left: auto; /* Pushes the element to the right */
+  gap: 10px;
+}
+
+
+.btn {
+  padding: 10px 20px;
+  border: none;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.deposit {
+  background-color: green; /* Green for Deposit */
+}
+
+.withdraw {
+  background-color: red; /* Red for Withdrawal */
+}
+
+.deposit:hover {
+  background-color: darkgreen; /* Darker green on hover */
+}
+
+.withdraw:hover {
+  background-color: darkred; /* Darker red on hover */
+}
+
+
+
+/*new button*/
+
+.top-right-buttons {
+  position: absolute;
+  top: 10px;   /* Distance from the top */
+  right: 10px; /* Distance from the right */
+  display: flex;
+  gap: 10px;   /* Space between buttons */
+}
+
+.btn {
+  padding: 10px 20px;
+  border: none;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.deposit {
+  background-color: green;
+}
+
+.withdraw {
+  background-color: red;
+}
+
+.deposit:hover {
+  background-color: darkgreen;
+}
+
+.withdraw:hover {
+  background-color: darkred;
+}
+
+
+
+
