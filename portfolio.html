@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio - Wardaan</title>
+  <link rel="stylesheet" href="style.css">
+  <!-- Chart.js for Portfolio Graph -->
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+  <!-- Header -->
+  <header>
+    <div class="container">
+      <h1>Wardaan</h1>
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="#logout">Logout</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Portfolio Section -->
+  <section class="portfolio">
+    <div class="container">
+      <h2>Your Portfolio</h2>
+      
+      <!-- Portfolio Summary -->
+      <div class="portfolio-summary">
+        <div class="summary-item">
+          <span>Invested Amount:</span>
+          <span class="amount">₹50,000</span>
+        </div>
+        <div class="summary-item">
+          <span>Current Amount:</span>
+          <span class="amount">₹55,000</span>
+        </div>
+        <div class="summary-item">
+          <span>Profit/Loss:</span>
+          <span class="amount profit">+₹5,000</span> <!-- Use "profit" or "loss" class -->
+        </div>
+      </div>
+
+      <!-- Portfolio Graph -->
+      <div class="portfolio-graph">
+        <canvas id="portfolioChart"></canvas>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <p>&copy; 2023 Wardaan. All rights reserved.</p>
+      <div class="social-media">
+        <a href="https://www.linkedin.com/in/your-linkedin-profile" target="_blank">
+          <i class="fab fa-linkedin"></i>
+        </a>
+        <a href="https://twitter.com/your-twitter-profile" target="_blank">
+          <i class="fab fa-twitter"></i>
+        </a>
+        <a href="https://github.com/your-github-profile" target="_blank">
+          <i class="fab fa-github"></i>
+        </a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- JavaScript for Portfolio Graph -->
+  <script>
+    // Portfolio Data
+    const portfolioData = {
+      labels: ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun'],
+      datasets: [{
+        label: 'Portfolio Value',
+        data: [50000, 52000, 53000, 54000, 55000, 56000],
+        borderColor: '#3498db',
+        tension: 0.4,
+      }]
+    };
+
+    // Create Portfolio Chart
+    const ctx = document.getElementById('portfolioChart').getContext('2d');
+    const portfolioChart = new Chart(ctx, {
+      type: 'line',
+      data: portfolioData,
+      options: {
+        scales: {
+          y: {
+            beginAtZero: false,
+          }
+        }
+      }
+    });
+  </script>
+</body>
+</html>
